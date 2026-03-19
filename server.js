@@ -29,12 +29,7 @@ const MODEL_MAPPING = {
   'claude-3-opus':   'openai/gpt-oss-20b',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
   'gemini-pro':      'nvidia/llama-3.1-nemotron-ultra-253b-v1',
- 
-  // GLM models (Z-AI / Zhipu) - type these directly into Janitor AI
-  'glm-4':           'z-ai/glm-4-9b-chat',
-  'glm-4.7':         'z-ai/glm-4-0520',
-  'glm-4.7-plus':    'z-ai/glm-4-plus',
-  'glm-5':           'z-ai/glm-4-airx'
+  'glm-4.7':         'z-ai/glm-4.7',
 };
 
 // Health check endpoint
