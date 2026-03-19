@@ -22,20 +22,19 @@ const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwarg
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
-  const MODEL_MAPPING = {
-  'gpt-3.5-turbo': 'nvidia/llama-3.1-nemotron-ultra-253b-v1',
-  'gpt-4': 'qwen/qwen3-coder-480b-a35b-instruct',
-  'gpt-4-turbo': 'moonshotai/kimi-k2-instruct-0905',
-  'gpt-4o': 'deepseek-ai/deepseek-v3.2',
-  'claude-3-opus': 'openai/gpt-oss-20b',
+  'gpt-3.5-turbo':   'nvidia/llama-3.1-nemotron-ultra-253b-v1',
+  'gpt-4':           'qwen/qwen3-coder-480b-a35b-instruct',
+  'gpt-4-turbo':     'moonshotai/kimi-k2-instruct-0905',
+  'gpt-4o':          'deepseek-ai/deepseek-v3.2',
+  'claude-3-opus':   'openai/gpt-oss-20b',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
-  'gemini-pro': 'nvidia/llama-3.1-nemotron-ultra-253b-v1',
+  'gemini-pro':      'nvidia/llama-3.1-nemotron-ultra-253b-v1',
  
-  //  GLM Models (Z-AI / Zhipu) — select these directly in Janitor AI
-  'glm-4':         'z-ai/glm-4-9b-chat',   // Lightweight GLM-4
-  'glm-4.7':       'z-ai/glm-4-0520',      // GLM-4.7 (May 2024 release)
-  'glm-4.7-plus':  'z-ai/glm-4-plus',      // GLM-4.7 Plus (stronger)
-  'glm-5':         'z-ai/glm-4-airx',      // Best available GLM on NIM
+  // GLM models (Z-AI / Zhipu) - type these directly into Janitor AI
+  'glm-4':           'z-ai/glm-4-9b-chat',
+  'glm-4.7':         'z-ai/glm-4-0520',
+  'glm-4.7-plus':    'z-ai/glm-4-plus',
+  'glm-5':           'z-ai/glm-4-airx'
 };
 
 // Health check endpoint
